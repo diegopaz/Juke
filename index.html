@@ -6,10 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Juke!</title>
     <style>
+        body {
+            background: #000;
+            margin: 0;
+        }
+        .logo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: calc(100vw - 40px);
+            height: 100vh;
+            padding: 20px;
+        }
+        .logo img {
+            max-width: 100%;
+        }
     </style>
 </head>
-<body style="background: #000;">
-    <div style="flex-direction: column;display:flex; justify-content: center; align-items:center; width: 100vw; height: 100vh;">
+<body>
+    <div class="logo">
         <img src="logo.jpg" alt="Juke!">
     </div>
 </body>
