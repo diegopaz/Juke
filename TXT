@@ -1,0 +1,3 @@
+Type: TXT Record
+Host: juke.com.ar
+Value: h6a822dfce068420cac3018192fd32e0b
